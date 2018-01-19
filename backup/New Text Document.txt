@@ -1,0 +1,3 @@
+indexb - sebelum edit untuk connection internal to external
+sendb - if(isset($_POST["no"])) sebelum di hapus
+indexc - if(isset($_POST["submit"])) sebelum di hapus
