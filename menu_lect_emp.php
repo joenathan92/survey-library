@@ -3,7 +3,7 @@
     <head>
         <?php
         include "connection.php";
-        //echo "test req", print_r($_REQUEST),"......";
+        echo "test req", print_r($_REQUEST),"......";
         ?>
     <meta charset="UTF-8">
     <title></title>
@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/style-survey.css"/>
     </head>
     <body>
-        <form action="survey.php" method="post">
+        <form action="survey_lecture_employee.php" method="post">
             <input type=hidden name=test value="hello">
                 <div style="text-align: center;">
                     <h1>Pilih Jenis Layanan Dibawah Ini</h1>

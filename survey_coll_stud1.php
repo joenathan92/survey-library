@@ -30,13 +30,13 @@
                 <div style="text-align: center;">
                     <h1>Apakah Anda Puas Dengan Layanan <?php echo $q;?> ? </h1>
                     <input type="hidden" name="nama" value="<?php echo $_POST['nama'];?>" />
-                    <input type="image" class="avatar" name="answer" src="img/survey/str_agree.png" value="no" >
+                    <input type="image" class="avatar" name="answer" src="img/survey/str_agree.png" value="strong_agree" >
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="image" class="avatar" name="answer" src="img/survey/agree.png" value="yes">
+                    <input type="image" class="avatar" name="answer" src="img/survey/agree.png" value="agree">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="image" class="avatar" name="answer" src="img/survey/disagree.png" value="no" >
+                    <input type="image" class="avatar" name="answer" src="img/survey/disagree.png" value="disagree" >
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="image" class="avatar" name="answer" src="img/survey/str_disagree" value="yes"><br>
+                    <input type="image" class="avatar" name="answer" src="img/survey/str_disagree" value="strong_disagree"><br>
                 </div>
         </form>
     </body>

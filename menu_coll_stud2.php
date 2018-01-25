@@ -3,7 +3,7 @@
     <head>
         <?php
         include "connection.php";
-        //echo "test req", print_r($_REQUEST),"......";
+        echo "test req", print_r($_REQUEST),"......";
         ?>
     <meta charset="UTF-8">
     <title></title>
