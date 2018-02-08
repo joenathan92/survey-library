@@ -14,13 +14,13 @@
         // echo "layanan =", print_r($_REQUEST),"......";
         //$layanan = $_REQUEST['layanan'];
         
-        if ($_POST['layanan']=='A-1')
+    if ($_POST['layanan'] =='E-1')
         {
-            $q = "Administrasi Perkuliahan";
+            $q = "circulation";
         }
-        else
+    else
         {
-            $q = "Administrasi Mahasiswa";
+            $q = "reference";
         }
 
     ?>
@@ -30,13 +30,13 @@
                 <div style="text-align: center;">
                     <h1>Apakah Anda Puas Dengan Layanan <?php echo $q;?> ? </h1>
                     <input type="hidden" name="nama" value="<?php echo $_POST['nama'];?>" />
-                    <input type="image" class="avatar" name="answer" src="img/survey/str_agree.png" value="no" >
+                    <input type="image" class="avatar" name="answer" src="img/survey/str_agree.png" value="strongly_agree" >
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="image" class="avatar" name="answer" src="img/survey/agree.png" value="yes">
+                    <input type="image" class="avatar" name="answer" src="img/survey/agree.png" value="agree">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="image" class="avatar" name="answer" src="img/survey/disagree.png" value="no" >
+                    <input type="image" class="avatar" name="answer" src="img/survey/disagree.png" value="disagree" >
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="image" class="avatar" name="answer" src="img/survey/str_disagree" value="yes"><br>
+                    <input type="image" class="avatar" name="answer" src="img/survey/str_disagree" value="strongly_disagree"><br>
                 </div>
         </form>
     </body>

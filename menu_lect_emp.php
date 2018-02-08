@@ -16,11 +16,10 @@
                 <div style="text-align: center;">
                     <h1>Pilih Jenis Layanan Dibawah Ini</h1>
                         <input type="hidden" name="nama" value="<?php echo $_POST['nama'];?>" />
-                        <input type="image" name="layanan"  class="avatar" src="img/menus/circulation.png" value="A-1" >
+                        <input type="image" name="layanan"  class="avatar" src="img/menus/circulation.png" value="E-1" >
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <input type=hidden name=test value="hello">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="image" class="avatar" name="layanan" src="img/menus/reference.png" value="A-2"><br>
-                        
+                        <input type="image" class="avatar" name="layanan" src="img/menus/reference.png" value="E-2"><br> 
                 </div>
         </form>
     </body>
